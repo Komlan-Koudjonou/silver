@@ -1,0 +1,399 @@
+/*---------------------------------- MON STYLE GENERAL -----------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+iframe{
+    max-width: 100%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.align{
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.bg-color{
+    background-color: black;
+}
+
+/*-------------------------------------------- MON HEADER NAV DEROULANTE ----------------------------- */
+
+.manav_cach{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.manav_cach a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+.manav_cach a:hover {
+    background-color: #ddd;
+}
+
+.manav:hover .manav_cach{
+    display: block;
+}
+
+/*-------------------------------------------- MON HEADER ----------------------------- */
+
+header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+header > .flex{
+    flex-wrap: wrap;
+}
+
+.manav > .flex{
+    flex-wrap: wrap;
+}
+
+
+.flex li{
+    list-style: none;
+    padding: 5px;
+}
+                            
+.flex a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+.in_h{
+    padding:10px;
+    margin: 10px;
+}
+
+.manav_cach {
+    padding: 10px;
+}
+
+.h1, .h2, .h3, .h4{
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------- MON MAIN ---------------------------*/
+
+/* ------------------------------ MA SECTION PRODUITS ------------------*/
+
+.prod1, .prod2{
+    height: 100%;                  
+    width: 75%;
+    object-fit: cover;
+}
+
+.sect_prd2{
+    width: 25%;
+    background-color: #38ada9;
+    margin: 0;
+}
+
+.sect_prd1{
+    background-color: #0a3d62;
+    width: 25%;
+    margin: 0;
+}
+
+/* ------------------------------ MA SECTION POINTS DE VENTE ------------------*/
+
+.pdv1{                                                 
+    width: 25%;
+    object-fit: cover;
+}
+
+.pdv2 img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.pdv img{
+    object-fit: cover;
+    width: 50%;
+}
+
+.pdv_p{
+    font-size: 35px;
+    color: white;
+    margin: -45px 25px 25px 75px;
+}
+
+/* ------------------------------ MA SECTION RESERVATION ------------------*/
+
+.reserv1{
+    height: 100%;
+    width: 33%;
+    object-fit: cover;
+    margin: 0;
+}
+.reserv2{
+    height: 100%;
+    width: 33%;
+    object-fit: cover;
+}
+.reserv3{
+    height: 100%;
+    width: 33%;
+    object-fit: cover;
+}
+
+.res_p1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.res_p2{
+    padding: 0;
+    margin: 0;
+}
+
+/* ------------------------------ MA SECTION AVIS ------------------*/
+
+.avis img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.avis{
+    justify-content: space-around;
+}
+
+.avis_p{
+    text-align: center;
+}
+
+.mesavis{
+    font-size: 50px;
+    text-align: center;
+}
+/* ------------------------------ MA SECTION AVIS ------------------*/
+
+.actu{
+    height: 250px;
+    background-color: #b71540;
+    color: white;
+}
+
+/* ------------------------------ MA SECTION NOS ACTUS ------------------*/
+
+/* ------------------------------ MA SECTION LA BOUTIK ------------------*/
+
+.boutik img{
+    height: 100%;                  
+    width: 100%;
+    object-fit: cover;
+}
+
+/* --------------------------------- MON FOOTER -------------------------------- */
+
+.fall{
+    background-color: black;
+}
+.foot{
+    width: 25%;
+    color: white;
+    padding: 10px;
+}
+/* --------------------------------- MENTIONS LEGALES / CONTACT -------------------------------- */
+
+input:not([type=checkbox], [class=in_h]){
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* --------------------------------- CDTS DE VENTE -------------------------------- */
+
+/* --------------------------------- PLAN -------------------------------- */
+
+.plan{
+    text-transform: uppercase;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* --------------------------------- PRINT -------------------------------- */
+
+/* --------------------------------- RESEAUX SOCIAUX -------------------------------- */
+
+.social img{
+    width: 2%;
+    margin: 5px;
+}
+
+.social{
+    display: inline;
+}
+
+.media{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* ------------------------- MON RESPONSIVE MEDIA QUERIES ----------------------------- */
+
+@media screen and (max-width: 1400px) {
+
+    .container{
+        max-width: 1200px;
+    }
+}
+
+/* @media screen and (max-width: 1000px) {
+
+    .block_imag{
+        width: calc(100% / 3); 
+    }
+} */
+
+/* @media screen and (max-width: 768px) {
+
+    .prod1,
+    .sect_prd1,
+    .sect_prd2,
+    .prod2{
+        width: 50%; 
+    }
+} */
+
+@media screen and (max-width: 576px) {
+
+    .prod1,
+    .sect_prd1,
+    .sect_prd2,
+    .prod2,
+    .prod,
+    .foot{
+        width: 100%;
+    }
+
+    .fall, .foot, .plan{
+        width: 100%;
+        text-align: center;
+    }
+
+    .boutik_p{
+        position: initial;
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+
+    .actu_p, .actu{
+        width: 100%;
+        text-align: center;
+    }
+
+    .mesavis{
+        background-color: #95afc0;
+        color: white;
+        width: 100%;
+        padding: 15px;
+        font-style: italic;
+        font-weight: lighter;
+    }
+
+    .avis{
+        width: 100%;
+    }
+
+    .avis img{
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .avis_p{
+        width: 100%;
+    }
+
+    .reserv{
+        width: 100%;
+        text-align: center;
+        margin: 15px;
+    }
+    
+    .pdv_p{
+        margin: 5px auto;
+        color: black;
+        text-align: center;
+    }
+    
+    .pdv img{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+                /* MA SECTION PRODUITS */
+
+    .prod{
+        text-align: center;
+        width: 100%;
+    }
+} 
+
+
+
+
+
+@media screen and (max-width: 945px) {
+
+    .h1, .h2, .h3{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 570px) {
+
+    .manav .flex > li{
+        width: 100%;
+        text-align: center;
+    }
+
+    header{
+        position: inherit;
+    }
+
+}
