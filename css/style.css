@@ -170,7 +170,6 @@ header > .flex{
 
 .res_p1{
     font-weight: 500;
-    font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
@@ -316,15 +315,18 @@ input:not([type=checkbox], [class=in_h]){
     }
 } */
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
-    .prod1,
-    .sect_prd1,
-    .sect_prd2,
-    .prod2{
-        width: 50%; 
+    .reserv{
+        width: 100%;
+        text-align: center;
+        margin: 15px;
     }
-} */
+
+    .avis{
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 576px) {
 
@@ -402,17 +404,40 @@ input:not([type=checkbox], [class=in_h]){
 } 
 
 
-
 @media screen and (max-width: 945px) {
 
     .h1, .h2, .h3, .h4{
         width: 100%;
         text-align: center;
     }
+
+    .avis_p{
+        width: 45%;
+        margin: 10px auto;
+    }
+
+    .avis img{
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .reserv{
+        width: 45%;
+        text-align: center;
+        margin: 15px;
+    }
+
+    .last{
+        width: 45%;
+        margin: 10px auto;
+    }
+
+     .actu_p, .actu{
+        width: 100%;
+        text-align: center;
+    }
+
 }
-
-
-
 
 
 @media screen and (max-width: 570px) {
@@ -424,6 +449,19 @@ input:not([type=checkbox], [class=in_h]){
 
     header{
         position: inherit;
+    }
+
+    .avis_p{
+        width: 100%;
+    }
+
+    .avis img{
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .last{
+        width: 100%;
     }
 
 }

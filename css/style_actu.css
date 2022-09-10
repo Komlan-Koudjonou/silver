@@ -1,7 +1,5 @@
 /*---------------------------------- MON STYLE GENERAL -----------------------------*/
 
-/*---------------------------------- MON STYLE GENERAL -----------------------------*/
-
 *{
     margin: 0;
     padding: 0;
@@ -124,22 +122,29 @@ header > .flex{
     display: block;
     text-align: center;
     text-transform: uppercase;
-    /* margin: 20px; */
+    margin-top: 80px;
     font-weight: lighter;
     color: white;
 }
 
 .actu1{
     text-align: justify;
-    width: 70%;
+    width: 60%;
     padding: 15px;
+    margin: auto;
 }
 
 .actu1 strong{
     text-transform: uppercase;
     padding: 15px;
     padding-left: 0;
+    font-size: 18px;
 }
+
+.marg{
+    margin: 15px;
+}
+
 /* --------------------------------- MON FOOTER -------------------------------- */
 
 .fall{
@@ -229,62 +234,15 @@ input:not([type=checkbox], [class=in_h]){
         text-align: center;
     }
 
-    .boutik_p{
-        position: initial;
-        width: 100%;
-        background-color: black;
-        color: white;
-    }
-
     .actu_p, .actu{
         width: 100%;
         text-align: center;
     }
 
-    .mesavis{
-        background-color: #95afc0;
-        color: white;
+    .actu1{
+        text-align: justify;
         width: 100%;
         padding: 15px;
-        font-style: italic;
-        font-weight: lighter;
-    }
-
-    .avis{
-        width: 100%;
-    }
-
-    .avis img{
-        border-radius: 0;
-        width: 100%;
-    }
-
-    .avis_p{
-        width: 100%;
-    }
-
-    .reserv{
-        width: 100%;
-        text-align: center;
-        margin: 15px;
-    }
-    
-    .pdv_p{
-        margin: 5px auto;
-        color: black;
-        text-align: center;
-    }
-    
-    .pdv img{
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-                /* MA SECTION PRODUITS */
-
-    .prod{
-        text-align: center;
-        width: 100%;
     }
 } 
 
@@ -296,10 +254,20 @@ input:not([type=checkbox], [class=in_h]){
         width: 100%;
         text-align: center;
     }
+
+    .actu{
+        width: 75%;
+    }
+
+    .actu1{
+        text-align: justify;
+        width: 75%;
+    }
+
+    .plus{
+        margin-top: 170px;
+    }
 }
-
-
-
 
 
 @media screen and (max-width: 570px) {
@@ -311,6 +279,19 @@ input:not([type=checkbox], [class=in_h]){
 
     header{
         position: inherit;
+    }
+
+    .actu{
+        width: 100%;
+    }
+
+    .actu1{
+        text-align: justify;
+        width: 100%;
+    }
+
+    .plus{
+        margin-top: 10px;
     }
 
 }

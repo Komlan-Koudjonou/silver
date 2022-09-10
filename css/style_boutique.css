@@ -109,9 +109,148 @@ header > .flex{
 
 /* ------------------------------  LA BOUTIK ------------------*/
 
-.shop1{
-    height: 250px;
+.comm{
+    border: 1px solid;
+    margin: 10px auto;
+    width: 85%;
+    padding: 25px;
+    text-align: center;
+}
+
+.welcome{
+    font-weight: bold;
+    color: #303952;
+    font-size: 16px;
+    margin: 5px auto;
+}
+.club{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #303952;
+    font-weight: bold;
+    margin: 5px auto;
+}
+.inscrip{
+    margin: auto;
+    text-align: center;
+    margin: 10px auto;
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.wel_club{
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.join{
+    background-color: #303952;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.t_align{
+    text-align: center;
+    width: 75%;
+    border: 1px solid;
+    margin: 5px auto;
+    padding: 15px;
+    display: block;
+}
+
+.decouvrir_titr{
+    background-color: #303952;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-align: center;
+    width: 85%;
+    margin: 20px auto;
+    font-size: 25px;
+}
+
+.vest_hf img{
+    max-width: 100%;
+    height: 100%;                  
     width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.vest_hf{
+    width: 30%;
+}
+
+.vestiair{
+    position: relative;
+    text-align: center;
+}
+
+.show{
+    width: 30%;
+    text-align: justify;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.button {
+    background-color: white;
+    opacity: 0.9;
+    border: none;
+    color: #303952;
+    width: 85%;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    position: absolute;
+    top: 85%;
+    left: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+.button:hover{
+    background-color: #303952;
+    color: white;
+}
+
+.discover a:hover{
+    color: #303952;
+}
+
+.vestiair a{
+    font-size: 16px;
+}
+
+.discover a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 77%;
+    left: 30%;
+}
+
+.sect_boutik{
+    margin-top: 100px;
+}
+
+.shop1{
+    width: 85%;
+    height: 35%;
+    margin: auto;
 }
 
 .shop1 img{
@@ -130,17 +269,6 @@ header > .flex{
     width: 30%;
 }
 
-.begin{
-    text-transform: uppercase;
-}
-
-.begin_p{
-    width: 750px;
-    margin: 20px;
-    padding: 10px;
-    text-align: justify;
-    height: 350px;
-}
 /* --------------------------------- MON FOOTER -------------------------------- */
 
 .fall{

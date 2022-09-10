@@ -257,6 +257,7 @@ header > .flex{
     border: 1px solid;
     margin: 5px auto;
     padding: 15px;
+    display: block;
 }
 
 .t_align:hover{
