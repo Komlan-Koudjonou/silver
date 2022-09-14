@@ -108,10 +108,10 @@ header > .flex{
     padding: 0;
 }
 
-/* ------------------------------- LES AVIS ---------------------------*/
-/* ------------------------------- LAISSER 1 COMMENTAIRE ---------------------------*/
-/* ------------------------------- AVIS DE CLIENTS ---------------------------*/
-/* ------------------------------- LES LOOKS EN RELATION ---------------------------*/
+/* ------------------------------- BANNIERES / LES AVIS ---------------------------*/
+.avis-top{
+    margin-top: 80px;
+}
 
 .avis_pic{
     height: 50%;                  
@@ -148,6 +148,7 @@ header > .flex{
     text-align: center;
 }
 
+/* ------------------------------- LES LOOKS EN RELATION ---------------------------*/
 .avis4 img{
     width: 100%;
     height: 100%;
@@ -164,7 +165,6 @@ header > .flex{
     margin-top: -150px;
     background-color: #9b59b6;
     padding: 15px;
-    height: 100px;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
@@ -175,7 +175,6 @@ header > .flex{
     margin-top: -150px;
     background-color: #3498db;
     padding: 15px;
-    height: 100px;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
@@ -186,7 +185,6 @@ header > .flex{
     margin-top: -150px;
     background-color: #2ecc71;
     padding: 15px;
-    height: 100px;
     color: white;
     text-transform: uppercase;
     font-weight: bold;
@@ -199,18 +197,33 @@ header > .flex{
     font-family: 'Times New Roman', serif;
 }
 
-.avis_bloc1 {
-    width: 10%;
+/* ------------------------------- LAISSER 1 COMMENTAIRE ---------------------------*/
+
+.avis6{
+    text-align: center;
+    margin: 25px;
+    padding: 15px;
 }
+.utilis{
+    width: 5%;
+}
+
 .avis_bloc2 {
     width: 50%;
 }
-.avis_bloc2 input {
-    width: 100%;
+
+.avat{
+    width: 5%;
+    height: 100%;
+    object-fit: cover;
+    margin-right: 35px;
 }
 
-.marg-l{
-    margin-left: 25px;
+.flex_avis{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
 }
 
 .look{
@@ -218,25 +231,10 @@ header > .flex{
     margin-top: 15px;
 }
 
-.avis6{
-    text-align: center;
-}
-
 .avis6 h3{
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 200;
-}
-
-.aviscone{
-    width: 200px;
-    height: 100px;
-}
-
-.entre{
-    width: 35%;
-    padding: 10px;
-    color: #2980b9;
 }
 
 #in_avis{
@@ -248,13 +246,27 @@ header > .flex{
     padding: 10px;
     margin: 20px;
 }
-
-.avis7{
-    display: flex;
-    align-items: center;
+/* ------------------------------- AVIS DE CLIENTS ---------------------------*/
+.avis img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
+.avis_p{
+    margin: 15px;
+}
 
+.avis_p p{
+    width: 75%;
+    text-align: justify;
+    margin: 15px;
+}
+
+.mesavis{
+    font-size: 45px;
+}
 
 /* --------------------------------- MON FOOTER -------------------------------- */
 
@@ -414,10 +426,35 @@ input:not([type=checkbox], [class=in_h]){
         width: 100%;
         text-align: center;
     }
+
+    .avis1{
+        margin-top: 100px;
+    }
+
+    .avis3{
+        width: 75%;
+    }
+
+    .avis5{
+        width: 45%;
+    }
+
+    .avis_p{
+        text-align: center;
+    }
+
+    .avis_p p{
+        width: 75%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .avat{
+        width: 20%;
+        height: auto;
+        margin-right: 0;
+    }
 }
-
-
-
 
 
 @media screen and (max-width: 570px) {
@@ -430,5 +467,27 @@ input:not([type=checkbox], [class=in_h]){
     header{
         position: inherit;
     }
+
+    .avis1{
+        margin-top: 0;
+    }
+
+    .avis3, .avis5{
+        width: 100%;
+    }
+
+    .flex_avis{
+        width: 100%;
+    }
+
+    .avat, #avatar{
+        width: 20%;
+        height: auto;
+        margin-right: 0;
+    }
+
+    .avis_p p{
+        width: 100%;
+    } 
 
 }

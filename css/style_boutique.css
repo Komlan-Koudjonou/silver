@@ -110,7 +110,6 @@ header > .flex{
 /* ------------------------------  LA BOUTIK ------------------*/
 
 .comm{
-    border: 1px solid;
     margin: 10px auto;
     width: 85%;
     padding: 25px;
@@ -427,10 +426,20 @@ input:not([type=checkbox], [class=in_h]){
         width: 100%;
         text-align: center;
     }
+
+    .vest_hf{
+        width: 45%;
+        margin: 10px;
+    }
+
+    .show{
+        display: none;
+    }
+
+    .and{
+        margin-top: 150px;
+    }
 }
-
-
-
 
 
 @media screen and (max-width: 570px) {
@@ -444,4 +453,21 @@ input:not([type=checkbox], [class=in_h]){
         position: inherit;
     }
 
+    .vest_hf{
+        width: 100%;
+    }
+
+    .show{
+        width: 100%;
+        display: block;
+        margin: 10px;
+    }
+
+    .wel_club{
+        width: 100%;
+    }
+
+    .comm{
+        margin-top: -100px;
+    }
 }
